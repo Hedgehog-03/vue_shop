@@ -61,7 +61,6 @@ export default {
         const {data: res} = await this.$http.post('login', this.loginForm);
         if (res.meta.status !== 200) return this.$message.console.error('登录失败！');
         this.$message.success('登录成功！');
-        console.log(res);
         //1.将登陆成功之后的token，保存到客户端的sessionStorage中
         //  1.1项目中除了登录之外的其他API接口，必须在登录之后才能访问
         //  1.2token只应在当前网站打开期间生效，所以将token保存在sessionStorage中
