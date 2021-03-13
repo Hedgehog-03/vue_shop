@@ -9,8 +9,10 @@
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "echarts": "^5.0.2",
     "element-ui": "^2.15.0",
     "lodash": "^4.17.21",
+    "v-charts-v2": "^2.0.9",
     "vue": "^2.6.11",
     "vue-quill-editor": "^3.0.6",
     "vue-router": "^3.2.0",

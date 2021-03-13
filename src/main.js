@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import VCharts from 'v-charts-v2'
 import App from './App.vue'
 import router from './router'
 import ElementUI from 'element-ui'
@@ -30,6 +31,7 @@ Vue.component('tree-table', TreeTable)
 Vue.use(VueQuillEditor)
 
 Vue.use(ElementUI)
+Vue.use(VCharts)
 
 Vue.filter('dateFormat', function(originVal) {
   const dt = new Date(originVal)
